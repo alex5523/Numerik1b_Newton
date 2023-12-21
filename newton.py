@@ -16,7 +16,7 @@ from scipy.optimize import fsolve
 from gauss_lr import back_sub
 
 
-
+# hallo
 ############ Newton method for a system of equations #########################
 
 def newtonsys(F_expr, J_expr, x_init, tol = 1e-6, iter_max = 50, x_max = 1e3):
